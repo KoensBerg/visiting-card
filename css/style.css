@@ -1,0 +1,97 @@
+.body {
+  margin: 0;
+}
+
+.about {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  width: 90%;
+  box-sizing: border-box;
+  padding: 20px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.about__header {
+  width: 25%;
+  padding-right: 30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.about__photo {
+  max-width: 100%;
+}
+
+.about__title {
+  margin: 15px 0 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.about__body {
+  margin-top: 10px;
+  width: 75%;
+}
+
+.about__info-item {
+  margin-bottom: 10px;
+}
+
+.about__info-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.about__info-param {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.about__skills {
+  margin-top: 30px;
+}
+
+.about__skill {
+  margin-bottom: 30px;
+}
+
+.about__skill:last-of-type {
+  margin-bottom: 0;
+}
+
+.about__skill-name {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about__skill-progress {
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
+.about__skill-value {
+  display: none;
+}
+
+.about__skill-bar {
+  height: 5px;
+  border-radius: 5px;
+  background-color: #fad027;
+}
+
+.about__skill-captions {
+  margin-top: 20px;
+}
+
+.about__skill-caption {
+  width: 24%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}

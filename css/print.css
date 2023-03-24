@@ -1,0 +1,19 @@
+.about__skill-bar {
+  /* скрываем прогресс */
+  display: none;
+}
+
+.about__skill-captions {
+  /* скрываем прогресс */
+  display: none;
+}
+
+.about__skill-value {
+  /* проявляем строку "эксперт" */
+  display: inline-block;
+  margin-left: 7px;
+}
+
+.about__skill {
+  margin-bottom: 5px;
+}
